@@ -109,6 +109,7 @@
  #emailpsswd{
      margin-top:-590px;
      margin-left:400px;
+     
  }
  #email{
      font-size: large;
@@ -176,7 +177,7 @@
      width: 300px;
      margin-top: -50px;
      margin-left: 25px;
-     line-height: 30px;
+     line-height: 24px;
      height: 40px;
  }
  
@@ -323,7 +324,7 @@
     
      margin-top: 120px;
      width: 517px;
-     height: 520px;
+     height: 720px;
      padding-top: 0px;
      
  
