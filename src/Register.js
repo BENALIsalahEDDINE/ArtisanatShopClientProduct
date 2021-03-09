@@ -33,15 +33,15 @@ function Register() {
            <input type="text" placeholder="Rechercher un produit ou une catégorie" id="navrecherche"/>&nbsp;
            <input type="button" id="buttonsearch" value="Rechercher"/>
            </li>
-           <li class="apropos">
+           
                  <NavLink id="apropos" exact activeClassName="active" to="/">A propos</NavLink>
                  
-                
+              
                  <NavLink id="register" exact activeClassName="active" to="/register">S'inscrire</NavLink>
                  
-                
+                 
                  <NavLink id="login" exact activeClassName="active" to="/login">Se connecter</NavLink>
-                 </li> 
+                 
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> EN</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown09">

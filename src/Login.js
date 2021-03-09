@@ -35,14 +35,14 @@ const Login =(props) => {
            <input type="button" id="buttonsearch" value="Rechercher"/>
            </li>
            <li class="apropos">
-                 <NavLink id="apropos" exact activeClassName="active" to="/">A propos</NavLink>
+                 <Link id="apropos" exact activeClassName="active" to="/">A propos</Link>
                  </li>
-                 <li class="register">
-                 <NavLink id="register" exact activeClassName="active" to="/register">S'inscrire</NavLink>
+                 <li class="apropos">
+                 <Link id="apropos" exact activeClassName="active" to="/register">S'inscrire</Link>
                  </li>
-                 <li class="login">
-                 <NavLink id="login" exact activeClassName="active" to="/login">Se connecter</NavLink>
-           </li>
+                 <li class="apropos">
+                 <Link id="apropos" exact activeClassName="active" to="/login">Se connecter</Link>
+                </li>
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> EN</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown09">
