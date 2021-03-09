@@ -13,7 +13,7 @@ import SocialFollow from "./Components/SocialFollow";
 import { withRouter } from 'react-router-dom';
 
 
-class App extends Component {
+class CreateAccount extends Component {
   
   render(){
   return (<Router>
@@ -65,29 +65,6 @@ class App extends Component {
              <center><h1><label></label></h1></center> 
       
 </div>
-        <div className="auth-wrapper">
-             
-          <div className="auth-inner">
-             <div className="costumer">
-                  <label id="cos">Nouveau Client ?</label><br/>
-                  <p><div id="acc">Créez un compte avec bous et tu pourras : <strong>:</strong></div> </p>
-                  <div id="paragraphe">
-                  
-                 <p>-Vérifier plus vite</p>
-                  <p id="x">-Enregistrer plusieurs adresses de livraison</p>
-                <p id="y">-Accédez à l'historique de vos commandes</p>
-                 <p>-Suivre les nouvelles commandes</p>
-                  <p id="z">-Enregistrer des articles dans votre liste de souhaits</p>
-                  </div><br/>
-              <div id="create">
-                <center><button id="buttoncreate" action="/SignAccount" ><strong>Créer un compte</strong></button></center>
-              </div>
-              
-
-
-            </div>
-        </div>
-      </div>
       </div>
       <br/>
       <div className="emailpsswd" id="emailpsswd">
@@ -96,17 +73,21 @@ class App extends Component {
          </div>
          <div id="auth">
            <div  className="auth-inner" id="authinner">
-           <center> <label id="seconnecter"><strong>Se connecter</strong></label> <br/></center>
-           <label id="email"><strong>Adresse email</strong></label>
+           <center> <label id="seconnecter"><strong>Nouveau Client ?</strong></label> <br/></center>
+           <label id="email"><strong>Prénom</strong></label>
+            <input type="text" placeholder="Prénom" id="emailtext"/>
+            <label id="email"><strong>Nom</strong></label>
+            <input type="text" placeholder="Nom" id="emailtext"/>
+            <label id="email"><strong>Adresse email</strong></label>
             <input type="text" placeholder="Adresse email" id="emailtext"/>
+            <label id="email"><strong>Adresse par défaut</strong></label>
+            <input type="text" placeholder="Adresse par défaut" id="emailtext"/>
             <label id="motdepasse"><strong>Mot de passe</strong></label>
-            <input type="text" placeholder="Mot de passe" id="email-psswd"/><br/><br/>
-            <input type="checkbox" id="checkbox" name="Rester connecté"/>&nbsp;&nbsp;&nbsp;<label id="rester"><strong>Rester connecté</strong></label>
-            <br/>
+            <input type="password" placeholder="Mot de passe" id="email-psswd"/><br/><br/>
             <br/>
             <div id="signin">
 
-                <center></center><button id="buttonsignin"><strong>Se connecter</strong></button>
+                <center></center><button id="buttonsignin"><strong>Créer un compte</strong></button>
              </div>
             <br/>
             <label id="forget" color="black"><Link to="#" ><strong>Mot de passe oublié ?</strong></Link></label>
@@ -164,4 +145,4 @@ class App extends Component {
   );
 }
 }
-export default App;
+export default CreateAccount;
