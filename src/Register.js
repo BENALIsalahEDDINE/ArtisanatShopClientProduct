@@ -68,7 +68,7 @@ function Register() {
       <br/>
       
          <div id="auth">
-           <div  className="auth-inner" id="authinner">
+           <div  className="auth-inner" id="authinner" >
            <center> <label id="seconnecter"><strong>Nouveau Client ?</strong></label> <br/></center>
            <label id="prenom"><strong>Prénom</strong></label>
             <input type="text" placeholder="Prénom" id="prenomtext"/> 

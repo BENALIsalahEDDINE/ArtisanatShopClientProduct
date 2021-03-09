@@ -310,6 +310,7 @@
  #auth{
      margin-left: -1200px;
      margin-top:-112px;
+     
  }
  #authinner{
      background: #B94B50;
@@ -319,10 +320,13 @@
      margin-left: 2431px;
      padding-bottom: 22px;
      padding-left: 87px;
-     padding-top: 36.303;
-     margin-top: 100px;
+    
+     margin-top: 120px;
      width: 517px;
-     height: 676px;
+     height: 520px;
+     padding-top: 0px;
+     
+ 
  }
  
  #z{
