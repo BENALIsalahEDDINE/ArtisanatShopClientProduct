@@ -34,13 +34,10 @@ function Register() {
            <input type="button" id="buttonsearch" value="Rechercher"/>
            </li>
            
-                 <NavLink id="apropos" exact activeClassName="active" to="/">A propos</NavLink>
+                 <li id="apropos" exact activeClassName="active" to="/">A propos</li>
                  
               
-                 <NavLink id="register" exact activeClassName="active" to="/register">S'inscrire</NavLink>
-                 
-                 
-                 <NavLink id="login" exact activeClassName="active" to="/login">Se connecter</NavLink>
+           
                  
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> EN</a>
