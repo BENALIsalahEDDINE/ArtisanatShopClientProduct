@@ -74,12 +74,12 @@ function Register() {
             <input type="text" placeholder="Prénom" id="prenomtext"/> 
             <label id="nom"><strong>Nom</strong></label>
             <input type="text" placeholder="Nom" id="nomtext"/>
-             <label id="email"><strong>Adresse email</strong></label>
+             <label id="email1"><strong>Adresse email</strong></label>
             <input type="text" placeholder="Adresse email" id="emailtext"/>
-            <label id="motdepasse"><strong>Mot de passe</strong></label>
+            <label id="motdepasse1"><strong>Mot de passe</strong></label>
             <input type="password1" placeholder="Mot de passe" id="email-psswd"/><br/><br/>
-            <label id="adressedef"><strong>Adresse par défaut</strong></label>
-            <input type="text" placeholder="Adresse par défaut" id="adressedeftext"/>
+            <label id="adressedeff"><strong>Adresse par défaut</strong></label>
+            <input type="text" placeholder="Adresse par défaut" id="adressedeftext1"/>
             <br/>
             <br/>
             <div id="signin">
