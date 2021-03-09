@@ -35,13 +35,13 @@ function Register() {
            </li>
            <li class="apropos">
                  <NavLink id="apropos" exact activeClassName="active" to="/">A propos</NavLink>
-                 </li>
-                 <li class="register">
+                 
+                
                  <NavLink id="register" exact activeClassName="active" to="/register">S'inscrire</NavLink>
-                 </li>
-                 <li class="login">
+                 
+                
                  <NavLink id="login" exact activeClassName="active" to="/login">Se connecter</NavLink>
-                  </li>
+                 </li> 
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> EN</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown09">
@@ -74,10 +74,10 @@ function Register() {
             <input type="text" placeholder="Prénom" id="prenomtext"/> 
             <label id="nom"><strong>Nom</strong></label>
             <input type="text" placeholder="Nom" id="nomtext"/>
-             <label id="email1"><strong>Adresse email</strong></label>
-            <input type="text" placeholder="Adresse email" id="emailtext1"/>
+             <label id="email"><strong>Adresse email</strong></label>
+            <input type="text" placeholder="Adresse email" id="emailtext"/>
             <label id="motdepasse"><strong>Mot de passe</strong></label>
-            <input type="password1" placeholder="Mot de passe" id="email-psswd1"/><br/><br/>
+            <input type="password1" placeholder="Mot de passe" id="email-psswd"/><br/><br/>
             <label id="adressedef"><strong>Adresse par défaut</strong></label>
             <input type="text" placeholder="Adresse par défaut" id="adressedeftext"/>
             <br/>

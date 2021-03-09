@@ -116,6 +116,24 @@
      line-height: 60px;
      font-family: cursive;
      margin-left: 25px;
+ }#adressedef{
+     font-size: large;
+     font-weight: 500;
+     line-height: 60px;
+     font-family: cursive;
+     margin-left: 25px;
+ }#prenom{
+     font-size: large;
+     font-weight: 500;
+     line-height: 60px;
+     font-family: cursive;
+     margin-left: 25px;
+ }#nom{
+     font-size: large;
+     font-weight: 500;
+     line-height: 60px;
+     font-family: cursive;
+     margin-left: 25px;
  }
  
  
@@ -128,6 +146,24 @@
  }
  
  #emailtext{
+     border-radius: 10px;
+     width: 300px;
+     margin-top: -50px;
+     margin-left: 25px;
+     height: 40px;
+ }#nomtext{
+     border-radius: 10px;
+     width: 300px;
+     margin-top: -50px;
+     margin-left: 25px;
+     height: 40px;
+ }#prenomtext{
+     border-radius: 10px;
+     width: 300px;
+     margin-top: -50px;
+     margin-left: 25px;
+     height: 40px;
+ }#adressedeftext{
      border-radius: 10px;
      width: 300px;
      margin-top: -50px;
@@ -276,8 +312,17 @@
      margin-top:-112px;
  }
  #authinner{
-     background: ;
-     height: 460px;
+     background: #B94B50;
+     
+     margin-right: 421.5;
+     margin-top: 247px;
+     margin-left: 2431px;
+     padding-bottom: 22px;
+     padding-left: 87px;
+     padding-top: 36.303;
+     margin-top: 100px;
+     width: 517px;
+     height: 676px;
  }
  
  #z{
