@@ -113,25 +113,25 @@
  #email{
      font-size: large;
      font-weight: 500;
-     line-height: 60px;
+     line-height: 24px;
      font-family: cursive;
      margin-left: 25px;
  }#adressedef{
      font-size: large;
      font-weight: 500;
-     line-height: 60px;
+     line-height: 24px;
      font-family: cursive;
      margin-left: 25px;
  }#prenom{
      font-size: large;
      font-weight: 500;
-     line-height: 60px;
+     line-height: 24px;
      font-family: cursive;
      margin-left: 25px;
  }#nom{
      font-size: large;
      font-weight: 500;
-     line-height: 60px;
+     line-height: 24px;
      font-family: cursive;
      margin-left: 25px;
  }
@@ -140,7 +140,7 @@
  #motdepasse{
      font-size: large;
      font-weight: 500;
-     line-height: 60px;
+     line-height: 24px;
      font-family: cursive;
      margin-left: 25px;
  }
@@ -315,7 +315,7 @@
  #authinner{
      background: #B94B50;
      
-     margin-right: 421.5;
+     margin-right: 421.5px;
      margin-top: 247px;
      margin-left: 2431px;
      padding-bottom: 22px;
