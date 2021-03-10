@@ -15,13 +15,8 @@ import './Register.js'
 import Register from './Register';
 import Home from './Home';
 import Login from './Login';
-<<<<<<< HEAD
-//imad
-=======
 
 
-
->>>>>>> fdd2d74b251d82037feb8d3bcf87615363e8b73e
 const App =(props) => {
   
   

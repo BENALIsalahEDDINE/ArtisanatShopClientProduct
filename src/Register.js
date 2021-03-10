@@ -22,7 +22,7 @@ function Register() {
   return (<Router>
     <div className="Register">
       <div className="logo">
-       <nav id="navbar"class="navbar navbar-expand-sm navbar-black bg-white">
+       <nav id="navbar"class="navbar ">
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <img src={shop} id="imageshop"/>
@@ -88,42 +88,7 @@ function Register() {
             </div>
             
       </div><br/><br/><br/><br/><br/>
-      <footer>
-        <div class="socio">
-             <p><strong>HEAR IT FIRST</strong></p>
-             <br></br>
-             <input type="text" placeholder="ENTER YOUR EMAIL" id="emailfooter" />
-             <p id="f">&#62;</p>
-             <br/>
-             <p><strong>THE FUN STUFF</strong></p>
-             <div className="container" id="Rsociaux">
-             <SocialFollow />
-             </div>
-             <div class="Help">
-               <strong>HELP</strong>
-               <br/><br/><br/>
-               <div class="Helpinstructions">
-                   <p><a href="#" Link="black">Help center</a></p>
-                   <a href="#"><p id="contactus">Contact us</p></a>
-                   <a href="#"> <p id="producthelp">Product Help</p></a>
-                   <a href="#"> <p id="warranty">Warranty</p></a>
-                   <a href="#"> <p id="orderstatus">Order Status</p></a>
-               </div>
-
-             </div>
-             <div class="Hello">
-               <strong>SAY HELLO</strong>
-               <br/><br/><br/>
-               <div class="Helloinstructions">
-                  <p>Phone : 0677702165</p>
-                  <br/>
-                  <br/>
-                  <p id="emailhelp">Email : Artisanat12@gmail.com</p>
-               </div>
-
-             </div>
-        </div>
-      </footer>
+      
       </div>
 
       <div className="container">
@@ -134,13 +99,6 @@ function Register() {
   );
 }
 export default Register;
-
-<<<<<<< HEAD
-
-=======
-//salah
->>>>>>> fdd2d74b251d82037feb8d3bcf87615363e8b73e
-
 
 
 
