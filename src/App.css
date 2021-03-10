@@ -3,7 +3,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+<<<<<<< HEAD
+    height: 600px;
+=======
     height: 900px;
+>>>>>>> fdd2d74b251d82037feb8d3bcf87615363e8b73e
     width: max-content;
     
 }
@@ -276,7 +280,11 @@ a.youtube {
     margin-top:-112px;
 }
 #authinner{
+<<<<<<< HEAD
+    background: var(--red);
+=======
     background: ;
+>>>>>>> fdd2d74b251d82037feb8d3bcf87615363e8b73e
     height: 460px;
 }
 

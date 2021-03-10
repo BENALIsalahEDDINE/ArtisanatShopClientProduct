@@ -317,16 +317,26 @@
  }
  
  #auth{
+<<<<<<< HEAD
+     margin-left: 1800px;
+     margin-top:200px;
+=======
      margin-left: -1200px;
      margin-top:-112px;
+>>>>>>> fdd2d74b251d82037feb8d3bcf87615363e8b73e
      
  }
  #authinner{
      background: #B94B50;
      
      margin-right: 421.5px;
+<<<<<<< HEAD
+     margin-top:120px;
+     margin-left: 3031px;
+=======
      margin-top: 247px;
      margin-left: 2431px;
+>>>>>>> fdd2d74b251d82037feb8d3bcf87615363e8b73e
      padding-bottom: 22px;
      padding-left: 87px;
     
