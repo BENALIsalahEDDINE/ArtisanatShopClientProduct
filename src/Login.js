@@ -14,14 +14,23 @@ import { Route , withRouter } from 'react-router-dom';
 import './Register.js'
 import Register from './Register';
 import Home from './Home';
+<<<<<<< HEAD
 
 //testtesttest
+=======
+//t1
+
+>>>>>>> fdd2d74b251d82037feb8d3bcf87615363e8b73e
 
 const Login =(props) => {
   
   
   return (<Router>
+<<<<<<< HEAD
     <div className="Login" id="poslogin">
+=======
+    <div className="Login">
+>>>>>>> fdd2d74b251d82037feb8d3bcf87615363e8b73e
       <div className="logo">
        <nav id="navbar"class="navbar navbar-expand-sm navbar-black bg-white">
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -38,10 +47,17 @@ const Login =(props) => {
                  <Link id="apropos" exact activeClassName="active" to="/">A propos</Link>
                  </li>
                  <li class="apropos">
+<<<<<<< HEAD
                  <Link id="s-inscrire" exact activeClassName="active" to="/register">S'inscrire</Link>
                  </li>
                  <li class="apropos">
                  <Link id="se-connecter" exact activeClassName="active" to="/login">Se connecter</Link>
+=======
+                 <Link id="apropos" exact activeClassName="active" to="/register">S'inscrire</Link>
+                 </li>
+                 <li class="apropos">
+                 <Link id="apropos" exact activeClassName="active" to="/login">Se connecter</Link>
+>>>>>>> fdd2d74b251d82037feb8d3bcf87615363e8b73e
                 </li>
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> EN</a>

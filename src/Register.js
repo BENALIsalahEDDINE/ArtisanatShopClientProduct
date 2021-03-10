@@ -135,7 +135,11 @@ function Register() {
 }
 export default Register;
 
+<<<<<<< HEAD
 
+=======
+//salah
+>>>>>>> fdd2d74b251d82037feb8d3bcf87615363e8b73e
 
 
 
