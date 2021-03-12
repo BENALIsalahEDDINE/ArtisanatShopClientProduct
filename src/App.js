@@ -1,41 +1,75 @@
-import React, { Component } from 'react';
+import React from "react";
 
-import { BrowserRouter as Router, Switch,  Link, NavLink,Redirect } from "react-router-dom";
-import shop from './images/logoshop.jpg';
-import {GoogleLogin} from 'react-google-login';
-import { Button } from 'reactstrap';
-import {Form ,FormGroup , Label ,Input} from 'reactstrap';
-import defaultExport from 'module';
-import FacebookLogin from 'react-facebook-login';
-import us from './images/us.png';  
-import sh from './images/bout.PNG';
-import SocialFollow from "./Components/SocialFollow";
-import { Route , withRouter } from 'react-router-dom';
-import './Register.js'
-import Register from './Register';
-import Home from './Home';
-import Login from './Login';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
 
-const App =(props) => {
-  
-  
-  return (<withRouter>
-    
+import ListProducts from "./components/products/ListProducts";
+import Cart from "./components/cart/Cart";
+import ProductDetail from "./components/details/ProductDetail";
 
-      <div className="container">
-      <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/register" component={Register}/>
-        <Route exact path="/login" component={Login}/>
+import CheckoutPage from "./components/order/checkout"
+import ValidateOrder from "./components/order/validateOrder"
+import ThankYouPage from "./components/order/thankyouPage"
+
+import PaymentPage from "./components/order/paymentPage"
+
+import Blog from "./components/Blog/Blog"
+import Post from "./components/Blog/Post"
+import Register from "./components/User/Register"
 
 
-      </Switch>
 
+import ScrollToTop from "./ScrollToTop";
 
-      </div>
-  
-    </withRouter>
+function App() {
+  return (
+    <Router>
+      <ScrollToTop>
+        <div className="App">
+          <Header />
+          <Switch>
+          
+            <Route path="/Register">
+              <Register/>
+            </Route>
+            <Route path="/" exact>
+              <ListProducts />
+            </Route>
+            <Route path="/cart">
+              <Cart />
+            </Route>
+            <Route path="/detail">
+              <ProductDetail />
+            </Route>
+            <Route path="/checkout">
+              <CheckoutPage />
+            </Route>
+            <Route path="/validateOrder">
+              <ValidateOrder />
+            </Route>
+            <Route path="/thankyouPage">
+              <ThankYouPage />
+            </Route>
+
+            <Route path="/forum">
+              <Blog />
+            </Route>
+           
+            <Route path="/post/:id"  render={(props) => <Post {...props}/> }/>
+
+            <Route path="/paymentPage">
+              <PaymentPage />
+            </Route>
+
+          </Switch>
+
+          <Footer />
+        </div>
+      </ScrollToTop>
+    </Router>
   );
 }
+
 export default App;
