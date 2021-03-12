@@ -21,12 +21,12 @@ export default class Footer extends Component {
                   method="post"
                 >
                   <input class="form-control" type="text" placeholder="" />
-                  <button>Inscription</button>
+                  <button id="inscr">Inscription</button>
                 </form>
               </div>
               <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 ">
                 <p>
-                  Bienvenue chez <span>  ArtisanatSHOP  </span>  Maroc-2021.
+                  Bienvenue chez <span id="bien">  ArtisanatSHOP  </span>  Maroc-2021.
                 </p>
               </div>
             </div>
@@ -43,7 +43,7 @@ export default class Footer extends Component {
                   <aside class="ps-widget--footer ps-widget--info">
                     <header>
                       <h2 style={{ color: "white" }}>
-                        Artisanat<span style={{ color: "#27b574" }}>SHOP</span>
+                        Artisanat<span id="bien"style={{ color: "yellow" }}>SHOP</span>
                       </h2>
                       <h3 class="ps-widget__title">Adresse 1</h3>
                     </header>
@@ -167,7 +167,7 @@ export default class Footer extends Component {
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                   <p>
-                    &copy; <a href="#">ARTISANATSHOP</a>
+                    &copy; <a id="ar"href="#">ARTISANATSHOP</a>
                   </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">

@@ -136,7 +136,7 @@ export default class Header extends Component {
                     <a class="ps-cart__toggle" href="#">
                       <ProductConsumer>
                         {(value) => (
-                          <span style={{ width: "26px", height: "26px" }}>
+                          <span id="sp" style={{ width: "26px", height: "26px" }}>
                             <i style={{ fontSize: "18px" }}>
                               {value.cart.length}
                             </i>
@@ -235,7 +235,7 @@ export default class Header extends Component {
                     </div>
                   </div> */}
                 </div>
-                <div class="menu-toggle">
+                <div id="dv" class="menu-toggle">
                   <span />
                 </div>
               </div>

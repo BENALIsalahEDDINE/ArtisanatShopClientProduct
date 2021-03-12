@@ -37,10 +37,10 @@ export default class Advertising extends Component {
                 data-responsive_offset="on"
                 data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
               >
-                <p>
-                  Lorem ipsum <br />
-                  Lorem
-                </p>
+                <p id="par">
+                COMUNIQUER L'EXCELLENCE <br />
+                Une vision prometteuse
+                </p >
               </div>
               <div
                 class="tp-caption ps-banner__title"
@@ -54,7 +54,7 @@ export default class Advertising extends Component {
                 data-textAlign="['center','center','center','center']"
                 data-frames='[{"delay":1200,"speed":1500,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
               >
-                <p class="text-uppercase">PUBLICITÉ 1</p>
+                <p class="text-uppercase" id="par"> COMUNIQUER L'EXCELLENCE </p>
               </div>
               <div
                 class="tp-caption ps-banner__description"
@@ -68,15 +68,14 @@ export default class Advertising extends Component {
                 data-textAlign="['center','center','center','center']"
                 data-frames='[{"delay":1200,"speed":1500,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
               >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                <p id="par">
+                L'artisanat marocain est très diversifié,
                   <br />
-                  sed do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. <br />
-                  Eleifend quam adipiscing vitae proin sagittis nisl.
+                  il fait appel à plusieurs matières premières tels la laine, le cuir, le bois, l'oseille, l'alfa, le doum, l'argile, la pierre, le marbre, le cuivre, le fer, l'argent, l'or. <br />
+                  Deuxième créateur d’emplois après l’agriculture.
                 </p>
               </div>
-              <a
+              <a id="ach"
                 class="tp-caption ps-btn"
                 id="layer31"
                 href="#"
@@ -123,10 +122,10 @@ export default class Advertising extends Component {
                 data-responsive_offset="on"
                 data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
               >
-                <p>
-                  Lorem Ipsum
+                <p id="par">
+                  L'ARTISANAT MAROCAIN
                   <br />
-                  Lorem
+                  Communiquer l’excellence
                 </p>
               </div>
               <div
@@ -141,7 +140,7 @@ export default class Advertising extends Component {
                 data-textAlign="['center','center','center','center']"
                 data-frames='[{"delay":1200,"speed":1500,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
               >
-                <p class="text-uppercase">PUBLICITÉ 2 </p>
+                <p class="text-uppercase" id="par">LA MARQUE DE LA CULTURE </p>
               </div>
               <div
                 class="tp-caption ps-banner__description"
@@ -155,14 +154,14 @@ export default class Advertising extends Component {
                 data-textAlign="['center','center','center','center']"
                 data-frames='[{"delay":1200,"speed":1500,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
               >
-                <p>
-                  Amet cursus sit amet dictum sit amet justo donec enim
+                <p id="par">
+                Encadrée de l’étoile verte à cinq branches, emblème du drapeau marocain
                   <br />
-                  Nec feugiat in fermentum posuere urna. Aliquet lectus <br />
-                  proin nibh nisl condimentum. Hendrerit dolor magna eget est.
+                  la quête de la perfection, la persévérance et la patience sont les mots  <br />
+                  les plus utilisés lorsqu’il s’agit de qualifier la création des artisans.
                 </p>
               </div>
-              <a
+              <a id="ach"
                 class="tp-caption ps-btn"
                 id="layer364"
                 href="#"

@@ -2,7 +2,8 @@
 * { font-family: Jura, Arial; font-weight: 400; }
 
 #htwo { margin: 0; }
-
+#par{color:seashell ;}
+#dv.menu-toggle.active{background-color: yellow;}
 section#sec {
   display: grid;
   grid-template-columns: 1fr minmax(200px,400px) 1fr;

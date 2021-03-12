@@ -5558,18 +5558,26 @@ button.ps-btn--gray:before {
     margin-bottom: 15px;
   }
 }
-
+.tp-caption.ps-btn{background-color:red ;}
+#dv{background-color:saddlebrown ;}
 .ps-cart {
   line-height: 90px;
   position: relative;
   display: inline-block;
 }
+#sp{
+  background-color: plum;
+  
+}
+#ar{color: yellow;}
+#bien{color:yellow ;}
+#inscr {background-color: red;}
 .ps-cart__toggle {
   position: relative;
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: #000;
+  background-color: tan;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
