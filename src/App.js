@@ -21,24 +21,12 @@ function App() {
       <ScrollToTop>
         <div className="App">
           <Header />
-          
-          
             <Route path="/Register">
               <Register/>
             </Route>
             <Route path="/" exact>
               <ListProducts />
             </Route>
-   
-          
-           
-           
-           
-      
-           
-
-        
-
           <Footer />
         </div>
       </ScrollToTop>
