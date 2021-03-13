@@ -1,9 +1,9 @@
-import React, { Component , StrictMode} from "react";
+import React, { Component } from "react";
 
 import { Link } from "react-router-dom";
 
 import { ProductConsumer } from "../globalData/Context";
-import { Button, } from 'reactstrap';
+
 
 
 

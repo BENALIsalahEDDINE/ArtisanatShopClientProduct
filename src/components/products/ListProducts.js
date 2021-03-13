@@ -1,15 +1,5 @@
 import React, { Component } from "react";
-
-import Product from "./Product";
 import Advertising from "../layout/Advertising";
-
-import { ProductConsumer } from "../globalData/Context";
-import ListCategories from "../categories/ListCategories";
-
-import { Pagination } from "../layout/Pagination";
-
-import BestSellers from "./BestSellers";
-
 export default class ListProducts extends Component {
   state = {
     search: "",
