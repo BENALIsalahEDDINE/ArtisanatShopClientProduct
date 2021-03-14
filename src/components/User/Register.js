@@ -43,7 +43,7 @@ class Register extends Component {
             <button id="butt" type="button" onClick={ () => this.changeView("logIn")}>Have an Account?</button>
           </form>
         )
-        break
+     //   break
       case "logIn":
         return (
           <form id="for">
@@ -61,7 +61,7 @@ class Register extends Component {
                 </li>
                 <li id="i1">
                   <i/>
-                  <a id="ha"onClick={ () => this.changeView("PWReset")} href="/">Forgot Password?</a>
+                  <a id="ha"onClick={ () => this.changeView("PWReset")} href="/Register#">Forgot Password?</a>
                 </li>
               </ul>
             </fieldset>
@@ -69,7 +69,7 @@ class Register extends Component {
             <button  id="butt" type="button" onClick={ () => this.changeView("signUp")}>Create an Account</button>
           </form>
         )
-         break
+        // break
       case "PWReset":
         return (
           <form id="for">
@@ -81,8 +81,8 @@ class Register extends Component {
                 <em id="ema">A reset link will be sent to your inbox!</em>
               </li>
               <li id="i1">
-                <label id="lab" for="email1">Email:</label>
-                <input id="inp" type="email" id="email1" required />
+                <label id="lab" for="email">Email:</label>
+               
               </li>
             </ul>
           </fieldset>
