@@ -13,6 +13,7 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.3",
     "axios": "^0.21.1",
+    "node": "15.10.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-facebook-login": "^4.1.1",
@@ -47,11 +48,4 @@
     ]
   }
 }
-{
-  "name": "myapp",
-  "description": "a really cool app",
-  "version": "12.18.2",
-  "engines": {
-    "node": "14.x"
-  }
-}
+
