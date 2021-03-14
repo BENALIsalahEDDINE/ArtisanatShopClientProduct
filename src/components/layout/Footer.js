@@ -92,16 +92,16 @@ export default class Footer extends Component {
                     <footer>
                       <ul class="ps-list--link">
                         <li>
-                          <a href="#">Code de coupons et réduction</a>
+                          <a href="/">Code de coupons et réduction</a>
                         </li>
                         <li>
-                          <a href="#">Enregistrez-vous à la newsletter</a>
+                          <a href="/">Enregistrez-vous à la newsletter</a>
                         </li>
                         <li>
-                          <a href="#">Donnez-nous votre avis</a>
+                          <a href="/">Donnez-nous votre avis</a>
                         </li>
                         <li>
-                          <a href="#">Voir les employés</a>
+                          <a href="/">Voir les employés</a>
                         </li>
                       </ul>
                     </footer>
@@ -115,19 +115,19 @@ export default class Footer extends Component {
                     <footer>
                       <ul class="ps-list--line">
                         <li>
-                          <a href="#">État de la commande</a>
+                          <a href="/">État de la commande</a>
                         </li>
                         <li>
-                          <a href="#">Expédition et livraison</a>
+                          <a href="/">Expédition et livraison</a>
                         </li>
                         <li>
-                          <a href="#">Retours</a>
+                          <a href="/">Retours</a>
                         </li>
                         <li>
-                          <a href="#">Options de paiement</a>
+                          <a href="/">Options de paiement</a>
                         </li>
                         <li>
-                          <a href="#">Contactez-nous</a>
+                          <a href="/">Contactez-nous</a>
                         </li>
                       </ul>
                     </footer>
@@ -141,19 +141,19 @@ export default class Footer extends Component {
                     <footer>
                       <ul class="ps-list--line">
                         <li>
-                          <a href="#">Tapis</a>
+                          <a href="/">Tapis</a>
                         </li>
                         <li>
-                          <a href="#">Cuir</a>
+                          <a href="/">Cuir</a>
                         </li>
                         <li>
-                          <a href="#">Broderie</a>
+                          <a href="/">Broderie</a>
                         </li>
                         <li>
-                          <a href="#">Vannerie</a>
+                          <a href="/">Vannerie</a>
                         </li>
                         <li>
-                          <a href="#">Textile</a>
+                          <a href="/">Textile</a>
                         </li>
                       </ul>
                     </footer>
@@ -167,28 +167,28 @@ export default class Footer extends Component {
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                   <p>
-                    &copy; <a id="ar"href="#">ARTISANATSHOP</a>
+                    &copy; <a id="ar"href="/">ARTISANATSHOP</a>
                   </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                   <ul class="ps-social">
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa fa-google-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa fa-instagram"></i>
                       </a>
                     </li>

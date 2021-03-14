@@ -77,22 +77,22 @@ export default class Header extends Component {
                   </li>
                   
                   <li class="menu-item menu-item-has-children dropdown">
-                    <a href="/forum">Forum</a>               
+                    <a href="/">Forum</a>               
                   </li>
                   <li class="menu-item">
-                    <a href="#">Tapis</a>
+                    <a href="/">Tapis</a>
                   </li>
                   <li class="menu-item">
-                    <a href="#">Cuir</a>
+                    <a href="/">Cuir</a>
                   </li>
                   <li class="menu-item">
-                    <a href="#">Broderie</a>
+                    <a href="/">Broderie</a>
                   </li>
                   <li class="menu-item">
-                    <a href="#">Vannerie</a>
+                    <a href="/">Vannerie</a>
                   </li>
                   <li class="menu-item">
-                    <a href="#">Textile</a>
+                    <a href="/">Textile</a>
                   </li>
                  
                   {/* <li class="menu-item menu-item-has-children dropdown">
@@ -133,7 +133,7 @@ export default class Header extends Component {
                 </form>
                 <div class="ps-cart">
                   <Link to="/cart">
-                    <a class="ps-cart__toggle" href="#">
+                    <a class="ps-cart__toggle" href="/">
                       <ProductConsumer>
                         {(value) => (
                           <span id="sp" style={{ width: "26px", height: "26px" }}>

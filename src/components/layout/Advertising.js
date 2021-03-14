@@ -77,8 +77,8 @@ export default class Advertising extends Component {
               </div>
               <a id="ach"
                 class="tp-caption ps-btn"
-                id="layer31"
-                href="#"
+                /*id="layer31"*/
+                href="/"
                 data-x="['left','left','left','left']"
                 data-hoffset="['-60','15','15','15']"
                 data-y="['middle','middle','middle','middle']"
@@ -163,8 +163,8 @@ export default class Advertising extends Component {
               </div>
               <a id="ach"
                 class="tp-caption ps-btn"
-                id="layer364"
-                href="#"
+             /*   id="layer364"*/
+                href="/"
                 data-x="['left','left','left','left']"
                 data-hoffset="['-60','15','15','15']"
                 data-y="['middle','middle','middle','middle']"
