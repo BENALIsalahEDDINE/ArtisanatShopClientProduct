@@ -47,3 +47,11 @@
     ]
   }
 }
+{
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "12.18.2",
+  "engines": {
+    "node": "14.x"
+  }
+}
