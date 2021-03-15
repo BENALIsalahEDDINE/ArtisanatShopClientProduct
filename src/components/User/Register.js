@@ -43,7 +43,7 @@ class Register extends Component {
             <button id="butt" type="button" onClick={ () => this.changeView("logIn")}>Have an Account?</button>
           </form>
         )
-     //   break
+       break
       case "logIn":
         return (
           <form id="for">
@@ -69,7 +69,7 @@ class Register extends Component {
             <button  id="butt" type="button" onClick={ () => this.changeView("signUp")}>Create an Account</button>
           </form>
         )
-        // break
+         break
       case "PWReset":
         return (
           <form id="for">
@@ -82,7 +82,7 @@ class Register extends Component {
               </li>
               <li id="i1">
                 <label id="lab" for="email">Email:</label>
-                <input id="inp" type="email1" id="email1" required/>
+                <input id="email1" type="email"  required/>
               </li>
             </ul>
           </fieldset>
