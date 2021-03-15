@@ -82,7 +82,7 @@ class Register extends Component {
               </li>
               <li id="i1">
                 <label id="lab" for="email">Email:</label>
-               
+                <input id="inp" type="email1" id="email1" required/>
               </li>
             </ul>
           </fieldset>
