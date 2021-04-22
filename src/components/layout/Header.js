@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import { ProductConsumer } from "../globalData/Context";
+import SimplePopOver from '../popover';
 
 
 
@@ -40,11 +41,12 @@ export default class Header extends Component {
                   <p>
                   Avenue Iberia , Tanger, Maroc Téléphone : +212 6428-55358
                   </p>
-                </div>
-                    
+                  </div>
+                    <SimplePopOver connectUser={value.connectUser} user={value.user} disconnectUser={value.disconnectUser} signUpUser={value.signUpUser}></SimplePopOver>
+                  </div>
+                </div>      
               </div>
-            </div>
-          </div>
+            
           <nav class="navigation">
             <div class="container-fluid">
               <div class="navigation__column left">

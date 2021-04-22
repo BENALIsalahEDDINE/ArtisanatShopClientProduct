@@ -4,7 +4,51 @@ export default class Footer extends Component {
   render() {
     return (
       <>
-       
+       <div class="ps-home-contact">
+          <div
+            id="contact-map"
+            data-address="New York, NY"
+            data-title="BAKERY LOCATION!"
+            data-zoom="17"
+          ></div>
+          <div class="ps-home-contact__form">
+            <header>
+              <h3>Contactez-nous!</h3>
+              <p>
+                Si vous avez besoin d'une quelconque information ou si vous
+                voulez nous signaler un bug, n'hésitez pas à nous envoyer un
+                message!
+              </p>
+            </header>
+            <footer>
+              <form action="product-listing.html" method="post">
+                <div class="form-group">
+                  <label>
+                    Nom et Prénom<span>*</span>
+                  </label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label>
+                    Adresse mail<span>*</span>
+                  </label>
+                  <input class="form-control" type="email" />
+                </div>
+                <div class="form-group">
+                  <label>
+                    Votre message<span>*</span>
+                  </label>
+                  <textarea class="form-control" rows="4"></textarea>
+                </div>
+                <div class="form-group text-center">
+                  <button class="ps-btn">
+                    Envoyer message<i class="fa fa-angle-right"></i>
+                  </button>
+                </div>
+              </form>
+            </footer>
+          </div>
+        </div>
         <div class="ps-subscribe">
           <div class="ps-container">
             <div class="row">
