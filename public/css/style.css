@@ -1734,7 +1734,7 @@ textarea.form-control {
   -moz-box-shadow: none;
   -ms-box-shadow: none;
   box-shadow: none;
-  background-color: #2ac37d !important;
+  background-color: red !important;
 }
 
 .ps-select .bs-caret {
