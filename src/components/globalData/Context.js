@@ -23,17 +23,17 @@ class ProductProvider extends Component {
 
 
   getInitialState= async() => {
-   /* var products = JSON.parse(localStorage.getItem( 'products' )) || 1;
+   var products = JSON.parse(localStorage.getItem( 'products' )) || 1;
     var copyProducts = JSON.parse(localStorage.getItem( 'copyProducts' )) || 1;
     var detailProduct = JSON.parse(localStorage.getItem( 'detailProduct' )) || 1;
-    var nomCat = JSON.parse(localStorage.getItem( 'nomCat' )) || 1;*/
+    var nomCat = JSON.parse(localStorage.getItem( 'nomCat' )) || 1;
     var cart = JSON.parse(localStorage.getItem( 'cart' )) || 1;
-   /* var user = JSON.parse(localStorage.getItem( 'user' )) || 1;*/
+    var user = JSON.parse(localStorage.getItem( 'user' )) || 1;
     var cartSubTotal = localStorage.getItem( 'cartSubTotal' )|| 1;
-   /* var currentPage = JSON.parse(localStorage.getItem( 'currentPage' )) || 1;
+    var currentPage = JSON.parse(localStorage.getItem( 'currentPage' )) || 1;
     var productsPerPage = JSON.parse(localStorage.getItem( 'productsPerPage' )) || 1;
     var recommandationProducts = JSON.parse(localStorage.getItem( 'recommandationProducts' )) || 1;
-    var bestSellers = JSON.parse(localStorage.getItem('bestSellers' )) || 1;*/
+    var bestSellers = JSON.parse(localStorage.getItem('bestSellers' )) || 1;
 
     this.setState({
 
@@ -253,7 +253,7 @@ class ProductProvider extends Component {
     });
   };
 
- /* cartToCommande = () => {
+  cartToCommande = () => {
     var commande = {
       paymentMethod: "A la livraison",
       listLigneCommande: [],
@@ -267,7 +267,7 @@ class ProductProvider extends Component {
     });
     console.log(commande);
     return commande;
-  }*/
+  }
   
   addToCart = (id) => {
     console.log("hello from add to cart");
@@ -275,10 +275,10 @@ class ProductProvider extends Component {
     const index = tempProducts.indexOf(this.getItem(id));
     const product = tempProducts[index];
     
-    // product.inCart = true;
-    // product.count = 1;
-    // const prix = product.prix;
-    // product.total = price;
+    product.inCart = true;
+     product.count = 1;
+     const prix = product.prix;
+     product.total = prix;
 
     this.setState(
       () => {
@@ -304,7 +304,7 @@ class ProductProvider extends Component {
     });
   };
 
- /* removeItem = (id) => {
+   removeItem = (id) => {
     let tempProducts = [...this.state.products];
     let tempCart = [...this.state.cart];
 
@@ -313,9 +313,9 @@ class ProductProvider extends Component {
     const index = tempProducts.indexOf(this.getItem(id));
     let removedProduct = tempProducts[index];
 
-    // removedProduct.inCart = false;
-    // removedProduct.count = 0;
-    // removedProduct.total = 0;
+    removedProduct.inCart = false;
+     removedProduct.count = 0;
+     removedProduct.total = 0;
 
     this.setState(
       () => {
@@ -331,7 +331,7 @@ class ProductProvider extends Component {
         this.addTotals();
       }
     );
-  };*/
+  };
 
   checkCategory = () => {
     const { idCat } = this.state.detailProduct;

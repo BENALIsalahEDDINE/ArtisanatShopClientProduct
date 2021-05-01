@@ -15,7 +15,7 @@ class Post extends Component{
     componentDidMount() {
         const { match: { params } } = this.props;
       
-        axios.get(`http://localhost:9092/Article/${params.id}`)
+        axios.get(`http://localhost:8080/Article/${params.id}`)
           .then(({ data: article }) => {
             console.log('article', article);
             console.log('done');

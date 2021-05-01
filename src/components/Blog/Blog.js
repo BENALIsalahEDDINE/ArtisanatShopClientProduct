@@ -9,7 +9,7 @@ class Blog extends Component {
       };
     
       fetchArticles = () => {
-        axios.get("http://localhost:9092/Article").then(res => {
+        axios.get("http://localhost:8080/Article").then(res => {
           const articles = res.data;
           this.setState({ articles });
         });

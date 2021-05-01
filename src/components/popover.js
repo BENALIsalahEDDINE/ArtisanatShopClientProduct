@@ -383,6 +383,67 @@ export default function SimplePopover(props) {
           </Typography>
         </Popover>
 
+
+        <div class="btn-group ps-dropdown">
+          <a
+            class="dropdown-toggle"
+            href="#"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            MAD
+          <i class="fa fa-angle-down" />
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">
+                <img src="images/flag/maroc.svg" alt="" /> MAD
+            </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/flag/usa.svg" alt="" /> USD
+            </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/flag/singapore.svg" alt="" /> SGD
+            </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/flag/japan.svg" alt="" /> JPN
+            </a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group ps-dropdown">
+          <a
+            class="dropdown-toggle"
+            href="#"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Langue
+          <i class="fa fa-angle-down" />
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">Français</a>
+            </li>
+            <li>
+              <a href="#">Anglais</a>
+            </li>
+            <li>
+              <a href="#">Espagnol</a>
+            </li>
+            <li>
+              <a href="#">Allemand</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
