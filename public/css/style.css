@@ -2084,7 +2084,7 @@ button.ps-btn {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #fff;
-  background-color: #2ac37d;
+  background-color: red;
   line-height: 25px;
   border: none;
   -webkit-border-radius: 60px;
