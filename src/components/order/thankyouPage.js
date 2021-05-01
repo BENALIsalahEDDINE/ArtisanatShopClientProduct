@@ -8,7 +8,7 @@ export default class ThankYouPage extends Component {
         return (
          
                <div class="jumbotron text-center">
-  <h1 class="display-3">Merci d'avoir choisi ForeverBio!</h1>
+  <h1 class="display-3">Merci d'avoir choisi ArtisanatSHOP!</h1>
   <p class="lead"><strong>Veuillez consulter votre boîte mail </strong> pour avoir le résultat de votre facture.</p>
   <hr></hr>
   <p>
