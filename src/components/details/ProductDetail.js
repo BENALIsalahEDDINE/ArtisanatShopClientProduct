@@ -85,15 +85,15 @@ export default class ProductDetail extends Component {
   checkCategory = () => {
     const { idCat } = this.context.detailProduct;
     if (idCat === 1) {
-      this.setState({ nomCat: "Visage" });
+      this.setState({ nomCat: "Textile" });
     } else if (idCat === 2) {
-      this.setState({ nomCat: "Cheveux" });
+      this.setState({ nomCat: "Cuir" });
     } else if (idCat === 3) {
-      this.setState({ nomCat: "Huile" });
+      this.setState({ nomCat: "Tapis" });
     } else if (idCat === 4) {
-      this.setState({ nomCat: "Peau" });
+      this.setState({ nomCat: "Vannerie" });
     } else if (idCat === 5) {
-      this.setState({ nomCat: "Aliment" });
+      this.setState({ nomCat: "Broderie" });
     }
   };
 

@@ -98,31 +98,31 @@ export default class ListCategories extends Component {
                   style={{ cursor: "pointer", marginBottom: "20px" }}
                   onClick={() => value.filterProductsByIdCat(1)}
                 >
-                  Visage
+                  Textile
                 </h4>
                 <h4
                   style={{ cursor: "pointer", marginBottom: "20px" }}
                   onClick={() => value.filterProductsByIdCat(2)}
                 >
-                  Cheveux
+                  Cuir
                 </h4>
                 <h4
                   style={{ cursor: "pointer", marginBottom: "20px" }}
                   onClick={() => value.filterProductsByIdCat(3)}
                 >
-                  Huile
+                  Tapis
                 </h4>
                 <h4
                   style={{ cursor: "pointer", marginBottom: "20px" }}
                   onClick={() => value.filterProductsByIdCat(4)}
                 >
-                  Peau
+                  Vannerie
                 </h4>
                 <h4
                   style={{ cursor: "pointer", marginBottom: "20px" }}
                   onClick={() => value.filterProductsByIdCat(5)}
                 >
-                  Aliment
+                  Broderie
                 </h4>
               </>
             );
