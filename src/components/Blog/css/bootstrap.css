@@ -4782,7 +4782,7 @@ tbody.collapse.show {
 
 .page-item.active .page-link {
   z-index: 2;
-  color: #fff;
+  color: black;
   background-color: #0275d8;
   border-color: #0275d8;
 }
