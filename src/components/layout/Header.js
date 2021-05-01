@@ -150,7 +150,7 @@ export default class Header extends Component {
                     </a>
                   </Link>
 
-                  {/* <div class="ps-cart__listing">
+                  {<div class="ps-cart__listing">
                     <div class="ps-cart__content">
                       <div class="ps-cart-item">
                         <a class="ps-cart-item__close" href="#"></a>
@@ -235,7 +235,7 @@ export default class Header extends Component {
                         Acheter<i class="ps-icon-arrow-left"></i>
                       </a>
                     </div>
-                  </div> */}
+                  </div> }
                 </div>
                 <div id="dv" class="menu-toggle">
                   <span />
