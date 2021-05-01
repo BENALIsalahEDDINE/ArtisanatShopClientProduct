@@ -49,7 +49,7 @@ export default class Product extends Component {
             <div className="ps-shoe mb-30">
               <div className="ps-shoe__thumbnail">
                 <div className="ps-badge" style={{ width: "40px" }}>
-                  <span style={{ fontSize: "12px" }}>Bio</span>
+                  <span style={{ fontSize: "12px" }}>Artis</span>
                 </div>
                 {/* <div className="ps-badge ps-badge--sale ps-badge--2nd">
                   <span>bio</span>
