@@ -36,7 +36,7 @@ export default class ListCategories extends Component {
                   class="btn btn-outline-secondary"
                   type="button"
                   onClick={(e) => value.searchProduct(e, this.state.search)}
-                  style={{ backgroundColor: "#27b574", color: "white" }}
+                  style={{ backgroundColor: "black", color: "white" }}
                 >
                   <i class="fas fa-search" />
                 </button>

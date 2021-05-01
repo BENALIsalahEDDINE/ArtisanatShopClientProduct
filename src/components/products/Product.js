@@ -52,7 +52,7 @@ export default class Product extends Component {
                   <span style={{ fontSize: "12px" }}>Artis</span>
                 </div>
                 {/* <div className="ps-badge ps-badge--sale ps-badge--2nd">
-                  <span>bio</span>
+                  <span>Excusif</span>
                 </div> */}
                 <a className="ps-shoe__favorite" href="#">
                   <i className="ps-icon-heart" />
