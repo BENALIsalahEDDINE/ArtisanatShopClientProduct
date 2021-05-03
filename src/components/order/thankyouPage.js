@@ -6,7 +6,7 @@ import '../../css/checkout.css';
 export default class ThankYouPage extends Component {
     render() {
         return (
-         
+         //ss
                <div class="jumbotron text-center">
   <h1 class="display-3">Merci d'avoir choisi ArtisanatSHOP!</h1>
   <p class="lead"><strong>Veuillez consulter votre boîte mail </strong> pour avoir le résultat de votre facture.</p>
