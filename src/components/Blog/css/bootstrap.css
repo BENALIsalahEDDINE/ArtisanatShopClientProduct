@@ -5702,6 +5702,8 @@ button.close {
 .popover.popover-top::before, .popover.popover-top::after, .popover.bs-tether-element-attached-bottom::before, .popover.bs-tether-element-attached-bottom::after {
   left: 50%;
   border-bottom-width: 0;
+  background-color: black;
+
 }
 
 .popover.popover-top::before, .popover.bs-tether-element-attached-bottom::before {

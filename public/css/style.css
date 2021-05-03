@@ -1850,6 +1850,7 @@ textarea.form-control {
   line-height: 1.3em;
   color: #5b5b5b;
   font-weight: 400;
+  
 }
 .form-group--inline.textarea label {
   -webkit-transform: translateY(50%);
@@ -1858,6 +1859,7 @@ textarea.form-control {
   -o-transform: translateY(50%);
   transform: translateY(50%);
   top: 0;
+  
 }
 @media (max-width: 1199px) {
   .form-group--inline {
@@ -1901,6 +1903,7 @@ textarea.form-control {
 }
 .form-group--number input.form-control:focus {
   border-color: #f1f1f1;
+  
 }
 .form-group--number button {
   display: inline-block;
@@ -1914,12 +1917,14 @@ textarea.form-control {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  
 }
 .form-group--number button:hover {
   background-color: #50cf96;
 }
 .form-group--number button.minus {
   float: left;
+  
 }
 
 .ps-form--icon {
