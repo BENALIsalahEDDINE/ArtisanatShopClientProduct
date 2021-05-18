@@ -213,7 +213,7 @@ export default function SimplePopover(props) {
           paddingTop:"5px",
           display : firstNameError ? "block":"none"
         }}>
-          <p  style={{ fontSize: 12, color: "red" }}>
+          <p  style={{ fontSize: 12, color: "red"}}>
       
 
             {"Votre prénom doit contenir  que des lettres."}

@@ -37,7 +37,7 @@ export default class Header extends Component {
           <div class="header__top">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12 ">
+                <div id="pop"class="col-lg-6 col-md-8 col-sm-6 col-xs-12 ">
                   <p>
                   Avenue Iberia , Tanger, Maroc Téléphone : +212 6428-55358
                   </p>
@@ -51,7 +51,7 @@ export default class Header extends Component {
             <div class="container-fluid">
               <div class="navigation__column left">
                 <div class="header__logo">
-                  <a class="ps-logo" href="index.html">
+                  <a class="ps-logo" >
                     <Link to="/">
                       <img src="images/logo.png" alt="" />
                     </Link>
@@ -74,28 +74,35 @@ export default class Header extends Component {
                       </li>
                     </ul> */}
                   </li>
-                  <li class="menu-item">
+                  {/* <li class="menu-item">
                     <a href="/Register">Se connecter / S'inscrire</a>
-                  </li>
+                  </li> */}
                   
                   <li class="menu-item menu-item-has-children dropdown">
-                    <a href="/">Forum</a>               
+                    <a href="/forum">Forum</a>               
                   </li>
                   <li class="menu-item">
-                    <a href="/">Tapis</a>
+                    <a  style={{ cursor: "pointer", marginBottom: "20px" }}
+                  onClick={() => value.filterProductsByIdCat(1)}>Textile</a>
                   </li>
                   <li class="menu-item">
-                    <a href="/">Cuir</a>
+                    <a style={{ cursor: "pointer", marginBottom: "20px" }}
+                  onClick={() => value.filterProductsByIdCat(2)}>Cuir</a>
                   </li>
                   <li class="menu-item">
-                    <a href="/">Broderie</a>
+                    <a style={{ cursor: "pointer", marginBottom: "20px" }}
+                  onClick={() => value.filterProductsByIdCat(3)}>Tapis</a>
                   </li>
                   <li class="menu-item">
-                    <a href="/">Vannerie</a>
+                    <a style={{ cursor: "pointer", marginBottom: "20px" }}
+                  onClick={() => value.filterProductsByIdCat(4)}>Vannerie</a>
                   </li>
                   <li class="menu-item">
-                    <a href="/">Textile</a>
+                    <a style={{ cursor: "pointer", marginBottom: "20px" }}
+                  onClick={() => value.filterProductsByIdCat(5)}>Broderie</a>
                   </li>
+                  
+                  
                  
                   {/* <li class="menu-item menu-item-has-children dropdown">
                     <a href="#">Contact</a>

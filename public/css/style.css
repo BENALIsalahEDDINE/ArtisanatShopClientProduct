@@ -5574,6 +5574,8 @@ button.ps-btn--gray:before {
   background-color: plum;
   
 }
+
+
 #ar{color: yellow;}
 #bien{color:yellow ;}
 #inscr {background-color: red;}
@@ -6287,6 +6289,7 @@ button.ps-btn--gray:before {
   -ms-border-radius: 0;
   border-radius: 0;
   border: none;
+  
 }
 .header__actions .ps-dropdown .dropdown-menu li a {
   padding: 9px 20px;
@@ -6301,6 +6304,7 @@ button.ps-btn--gray:before {
   max-width: 20px;
   border: 1px solid #eee;
   margin-right: 10px;
+  
 }
 .header__actions .ps-dropdown .dropdown-menu li a:hover {
   background-color: #2ac37d;
@@ -6311,11 +6315,13 @@ button.ps-btn--gray:before {
 }
 .header__actions .ps-dropdown:last-child > a {
   border-right: 1px solid #e5e5e5;
+  
 }
 @media (max-width: 479px) {
   .header__actions > a,
   .header__actions .ps-dropdown > a {
     font-size: 12px;
+    
   }
 }
 
@@ -6332,6 +6338,7 @@ button.ps-btn--gray:before {
 }
 .header .header__top {
   border-bottom: 1px solid #e5e5e5;
+  background-color:#ffebcd;
 }
 .header .header__top p {
   margin-bottom: 0;
@@ -6340,6 +6347,8 @@ button.ps-btn--gray:before {
   text-align: left;
   color: #5b5b5b;
   line-height: 40px;
+  background-color:#ffebcd;
+  
 }
 @media (max-width: 1199px) {
   .header {
@@ -7064,6 +7073,7 @@ button.ps-btn--gray:before {
 
 .ps-product--detail .ps-product__review .form-group {
   margin-bottom: 30px;
+  
 }
 .ps-product--detail .ps-product__review .form-group label {
   margin-bottom: 15px;

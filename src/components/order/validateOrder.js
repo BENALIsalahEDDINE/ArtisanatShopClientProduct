@@ -111,7 +111,7 @@ export default class ValidateOrder extends Component {
                                                 <FormGroup>
       
         <div>
-          <div className="row" style={{
+        <div className="row" style={{
           }}>< CustomInput type="radio"  className="column" id="exampleCustomRadio" name="customRadio" label="Paiement en ligne"  onChange={()=> {value.cartToCommande.paymentMethod="A la livraison"}} style={{
 
           }}/> 

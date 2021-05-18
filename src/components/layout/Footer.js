@@ -21,7 +21,7 @@ export default class Footer extends Component {
               </p>
             </header>
             <footer>
-              <form action="product-listing.html" method="post">
+              <form >
                 <div class="form-group">
                   <label>
                     Nom et Prénom<span>*</span>
