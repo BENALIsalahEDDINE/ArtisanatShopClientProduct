@@ -10,3 +10,11 @@
     padding-top:50px;
     margin: auto;
   }
+  .MuiTypography-body1{
+    background-color: burlywood;
+
+  }
+
+button.btn.btn-success{
+    background-color: brown;
+  }

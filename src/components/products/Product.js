@@ -48,15 +48,13 @@ export default class Product extends Component {
           <div className="grid-item__content-wrapper">
             <div className="ps-shoe mb-30">
               <div className="ps-shoe__thumbnail">
-                <div className="ps-badge" style={{ width: "40px" }}>
-                  <span style={{ fontSize: "12px" }}>Artis</span>
+                <div className="ps-badge ps-badge--sale ps-badge--2nd" style={{ width: "40px" }}>
+                  <span style={{ fontSize: "12px" }}>New</span>
                 </div>
                 {/* <div className="ps-badge ps-badge--sale ps-badge--2nd">
                   <span>Excusif</span>
-                </div> */}
-                <a className="ps-shoe__favorite" href="#">
-                  <i className="ps-icon-heart" />
-                </a>
+    </div> */}
+                
                 <img
                   src={url}
                   alt={nom}
@@ -91,13 +89,13 @@ export default class Product extends Component {
                     </ProductConsumer>
                   </div>
                 </div>
-                {/* <div className="ps-shoe__variants">
-                  <div className="ps-shoe__variant normal">
+                <div className="ps-shoe__variants">
+                 {/* <div className="ps-shoe__variant normal">
                     <img src="images/bio-product/2.jpg" alt="" />
                     <img src="images/bio-product/3.jpg" alt="" />
                     <img src="images/bio-product/4.jpg" alt="" />
                     <img src="images/bio-product/5.jpg" alt="" />
-                  </div>
+                  </div>*/}
                   <select className="ps-rating ps-shoe__rating">
                     <option value="1">1</option>
                     <option value="1">2</option>
@@ -105,7 +103,7 @@ export default class Product extends Component {
                     <option value="1">4</option>
                     <option value="2">5</option>
                   </select>
-                </div> */}
+                </div> 
                 <div className="ps-shoe__detail">
                   <a
                     className="ps-shoe__name"

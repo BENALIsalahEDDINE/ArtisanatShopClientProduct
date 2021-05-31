@@ -62,9 +62,7 @@ export default class ProductHot extends Component {
                   <span style={{ fontSize: "14px" }}>Vendu : {nbVentes} </span>
                 </div> */}
 
-                <a className="ps-shoe__favorite" href="#">
-                  <i className="ps-icon-heart" />
-                </a>
+               
                 <img
                   src={url}
                   alt={nom}

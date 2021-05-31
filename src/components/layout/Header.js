@@ -60,25 +60,20 @@ export default class Header extends Component {
               </div>
               <div class="navigation__column center">
                 <ul class="main-menu menu">
-                  <li class="menu-item menu-item-has-children dropdown">
-                    {/* <Link to="/">Accueil</Link> */}
-                    {/* <ul class="sub-menu">
+                  <li class="menu-item ">
+                    <Link to="/">Accueil</Link> 
+                    <ul class="sub-menu">
                       <li class="menu-item">
-                        <a href="index.html">Accueil #1</a>
+                        <a href="index.html">Accueil </a>
                       </li>
-                      <li class="menu-item">
-                        <a href="#">Accueil #2</a>
-                      </li>
-                      <li class="menu-item">
-                        <a href="#">Accueil #3</a>
-                      </li>
-                    </ul> */}
+                    
+                    </ul> 
                   </li>
                   {/* <li class="menu-item">
                     <a href="/Register">Se connecter / S'inscrire</a>
                   </li> */}
                   
-                  <li class="menu-item menu-item-has-children dropdown">
+                   <li class="menu-item  ">
                     <a href="/forum">Forum</a>               
                   </li>
                   <li class="menu-item">
@@ -100,21 +95,19 @@ export default class Header extends Component {
                   <li class="menu-item">
                     <a style={{ cursor: "pointer", marginBottom: "20px" }}
                   onClick={() => value.filterProductsByIdCat(5)}>Broderie</a>
-                  </li>
+                  </li> 
                   
                   
                  
-                  {/* <li class="menu-item menu-item-has-children dropdown">
-                    <a href="#">Contact</a>
+                  <li class="menu-item ">
+                    <a href="contact-us.html">Contact</a>
                     <ul class="sub-menu">
                       <li class="menu-item">
-                        <a href="contact-us.html">Contact Us #1</a>
+                        <a href="contact-us.html">Contact Us</a>
                       </li>
-                      <li class="menu-item">
-                        <a href="contact-us.html">Contact Us #2</a>
-                      </li>
+                   
                     </ul>
-                  </li> */}
+                  </li> 
                 </ul>
               </div>
               <div class="navigation__column right">
@@ -157,92 +150,7 @@ export default class Header extends Component {
                     </a>
                   </Link>
 
-                  {<div class="ps-cart__listing">
-                    <div class="ps-cart__content">
-                      <div class="ps-cart-item">
-                        <a class="ps-cart-item__close" href="#"></a>
-                        <div class="ps-cart-item__thumbnail">
-                          <a href="product-detail.html"></a>
-                          <img src="images/cart-preview/1.jpg" alt="" />
-                        </div>
-                        <div class="ps-cart-item__content">
-                          <a
-                            class="ps-cart-item__title"
-                            href="product-detail.html"
-                          >
-                            Lorem Ipsum’
-                          </a>
-                          <p>
-                            <span>
-                              Quantité:<i>12</i>
-                            </span>
-                            <span>
-                              Total:<i>176MAD</i>
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                      <div class="ps-cart-item">
-                        <a class="ps-cart-item__close" href="#"></a>
-                        <div class="ps-cart-item__thumbnail">
-                          <a href="product-detail.html"></a>
-                          <img src="images/cart-preview/2.jpg" alt="" />
-                        </div>
-                        <div class="ps-cart-item__content">
-                          <a
-                            class="ps-cart-item__title"
-                            href="product-detail.html"
-                          >
-                            Lorem Ipsum
-                          </a>
-                          <p>
-                            <span>
-                              Quantité:<i>12</i>
-                            </span>
-                            <span>
-                              Total:<i>176MAD</i>
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                      <div class="ps-cart-item">
-                        <a class="ps-cart-item__close" href="#"></a>
-                        <div class="ps-cart-item__thumbnail">
-                          <a href="product-detail.html"></a>
-                          <img src="images/cart-preview/3.jpg" alt="" />
-                        </div>
-                        <div class="ps-cart-item__content">
-                          <a
-                            class="ps-cart-item__title"
-                            href="product-detail.html"
-                          >
-                            Lorem Ipsum
-                          </a>
-                          <p>
-                            <span>
-                              Quantité:<i>12</i>
-                            </span>
-                            <span>
-                              Total:<i>176MAD</i>
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="ps-cart__total">
-                      <p>
-                        Nombre d'Items:<span>36</span>
-                      </p>
-                      <p>
-                        Item Total:<span>528.00MAD</span>
-                      </p>
-                    </div>
-                    <div class="ps-cart__footer">
-                      <a class="ps-btn" href="cart.html">
-                        Acheter<i class="ps-icon-arrow-left"></i>
-                      </a>
-                    </div>
-                  </div> }
+                 
                 </div>
                 <div id="dv" class="menu-toggle">
                   <span />

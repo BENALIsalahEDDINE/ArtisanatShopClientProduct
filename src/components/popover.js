@@ -224,7 +224,7 @@ export default function SimplePopover(props) {
         <Label  for="exampleDatetime">Date de naissance</Label>
         <Input
         autoFocus={autoFocusPro === "birthDate"? true : false}value={birthDate}
-          type="datetime"
+          type="date"
           name="datetime"
           id="exampleDatetime"
           placeholder="dd/mm/aaaa" onChange={
@@ -234,6 +234,7 @@ export default function SimplePopover(props) {
             }
           }
         />
+     
 
       </FormGroup>
       <FormGroup>
@@ -310,20 +311,7 @@ export default function SimplePopover(props) {
     width: "300px",
     textAlign: "left",
   }}>
-     <FormGroup>
-                <img
-                  src={(props.user == null || props.user.url === "" )? "https://n-allo.be/wp-content/uploads/2016/08/ef3-placeholder-image-450x350.jpg" : props.user.url }
-                  alt=""
-                  style={{
-                    width: "120px",
-                    height: "120px",
-                    display: "block",
-                    margin: "auto",
-                    marginBottom: "3px",
-                    borderRadius: "50%"
-                  }}
-                />
-              </FormGroup>
+   
 
     <FormGroup>
       <Label for="exampleEmail">Email</Label>

@@ -111,8 +111,8 @@ export default class ValidateOrder extends Component {
                                                 <FormGroup>
       
         <div>
-        <div className="row" style={{
-          }}>< CustomInput type="radio"  className="column" id="exampleCustomRadio" name="customRadio" label="Paiement en ligne"  onChange={()=> {value.cartToCommande.paymentMethod="A la livraison"}} style={{
+          <div className="row" style={{
+          }}>< CustomInput type="radio"  className="column" id="exampleCustomRadio" name="customRadio" label=" Paiement en ligne"  onChange={()=> {value.cartToCommande.paymentMethod="A la livraison"}} style={{
 
           }}/> 
           <CustomInput type="radio" id="exampleCustomRadio2" name="customRadio" label=" Paiement à la livraison" onChange={()=> {value.cartToCommande.paymentMethod="Paiement en ligne"}} className="column"/>
@@ -146,7 +146,7 @@ export default class ValidateOrder extends Component {
                         <h3>
                           Prix Total: <span>{value.cartSubTotal}DH</span>
                         </h3>
-                        {(value.cartToCommande.paymentMethod==="Paiement en ligne") ? 
+                         {(value.cartToCommande.paymentMethod==="Paiement en ligne") ? 
                         <Link to="/paymentPage">
                         <button className="ps-btn danger" onClick={()=> {
                             console.log("U clicked");
@@ -161,8 +161,7 @@ export default class ValidateOrder extends Component {
                             console.log(value.cartToCommande.paymentMethod);
                             value.addCommande(value.cartToCommande())}}>
                          Valider ordre<i class="ps-icon-next"></i>
-                        </button></Link> }
-
+                        </button></Link> } 
                       </div>
                     </div>)}</ProductConsumer>
                     

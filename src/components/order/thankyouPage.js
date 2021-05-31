@@ -15,7 +15,7 @@ export default class ThankYouPage extends Component {
     Avez-vous des problèmes ? <a href="">Contactez-nous </a>
   </p>
   <p class="lead">
-    <a class="btn btn-primary btn-sm" href="https://bootstrapcreative.com/" role="button">Continue to homepage</a>
+    <a class="btn btn-primary btn-sm" href="/#" role="button">Continue to homepage</a>
   </p>
 </div>
            

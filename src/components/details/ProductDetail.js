@@ -154,7 +154,7 @@ export default class ProductDetail extends Component {
                         </div>
                       </div>
                       <div class="ps-product__info">
-                        <div class="ps-product__rating">
+                        {/* <div class="ps-product__rating">
                           <select class="ps-rating">
                             <option value="1">1</option>
                             <option value="1">2</option>
@@ -163,7 +163,7 @@ export default class ProductDetail extends Component {
                             <option value="2">5</option>
                           </select>
                           <a href="#comm">(Voir les commentaires)</a>
-                        </div>
+                        </div> */}
                         <h1>
                           {value.detailProduct.nom} ({value.detailProduct.unit})
                         </h1>
@@ -257,15 +257,13 @@ export default class ProductDetail extends Component {
                           </ProductConsumer>
 
                           <div class="ps-product__actions">
-                            <a class="mr-10" href="whishlist.html">
-                              <i class="ps-icon-heart" />
-                            </a>
+                            
                             <a href="compare.html">
                               <i class="ps-icon-share" />
                             </a>
                           </div>
                           {this.state.notif && (
-                            <p style={{ color: "green" }}>Produit ajouté!</p>
+                            <p style={{ color: "red" }}>Produit ajouté!</p>
                           )}
                         </div>
                       </div>
