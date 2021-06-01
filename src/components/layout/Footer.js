@@ -1,6 +1,28 @@
+import axios from "axios";
 import React, { Component } from "react";
 
 export default class Footer extends Component {
+  state = {nom: '', email: '', body: ''};
+  constructor(props) {
+    super(props);
+    this.state = {nom: '', email: '', body: ''};
+    this.sendmessage = this.sendmessage.bind(this);
+  }
+
+  sendmessage() {
+    console.log(this.state);
+    axios.post('http://localhost:8080/boit/',this.state, {
+    headers: {
+      'Content-Type': 'application/json'
+    }
+    })
+    .then(res => {
+      this.setState({nom: '', email: '', body: ''});
+      alert('votre message a été envoyé')
+    })
+    .catch(error => console.error(error));
+   // event.preventDefault();
+  }
   render() {
     return (
       <>
@@ -21,31 +43,30 @@ export default class Footer extends Component {
               </p>
             </header>
             <footer>
-              <form >
+             
                 <div class="form-group">
                   <label>
                     Nom et Prénom<span>*</span>
                   </label>
-                  <input class="form-control" type="text" />
+                  <input class="form-control" name="nom" value={this.state.nom} type="text" onChange={e => this.setState({nom: e.target.value})} />
                 </div>
                 <div class="form-group">
                   <label>
                     Adresse mail<span>*</span>
                   </label>
-                  <input class="form-control" type="email" />
+                  <input class="form-control" name="email" value={this.state.email} onChange={e => this.setState({email: e.target.value})} type="" />
                 </div>
                 <div class="form-group">
                   <label>
                     Votre message<span>*</span>
                   </label>
-                  <textarea class="form-control" rows="4"></textarea>
+                  <textarea class="form-control" rows="4" value={this.state.body} onChange={e => this.setState({body: e.target.value})}></textarea>
                 </div>
                 <div class="form-group text-center">
-                  <button class="ps-btn">
+                  <button class="ps-btn" onClick={this.sendmessage}>
                     Envoyer message<i class="fa fa-angle-right"></i>
                   </button>
                 </div>
-              </form>
             </footer>
           </div>
         </div>

@@ -154,14 +154,14 @@ export default class ValidateOrder extends Component {
                             value.addCommande(value.cartToCommande())}}>
                          Valider ordre<i class="ps-icon-next"></i>
                         </button></Link> : 
-                        <Link to="/paymentPage">
+                        <Link to="/thankyouPage">
                         <button className="ps-btn danger" onClick={()=> {
                             
                             console.log("U clicked");
                             console.log(value.cartToCommande.paymentMethod);
                             value.addCommande(value.cartToCommande())}}>
                          Valider ordre<i class="ps-icon-next"></i>
-                        </button></Link> } 
+                        </button></Link> } f
                       </div>
                     </div>)}</ProductConsumer>
                     
