@@ -48,7 +48,7 @@ export default class Cart extends Component {
                                   class="minus"
                                   onClick={() => value.decrement(product.id)}
                                 >
-                                  <span>-</span>
+                  <span>-</span>
                                 </button>
                                 <input
                                   class="form-control"
@@ -56,7 +56,7 @@ export default class Cart extends Component {
                                   value={product.count}
                                 />
                                 <button
-                                  class="plus"
+        class="plus"
                                   onClick={() => value.increment(product.id)}
                                 >
                                   <span>+</span>
@@ -64,7 +64,7 @@ export default class Cart extends Component {
                               </div>
                             </td>
                             <td>{product.total}DH</td>
-                            <ProductConsumer>
+ <ProductConsumer>
                               {(value) => (
                                 <td>
                                   <div
